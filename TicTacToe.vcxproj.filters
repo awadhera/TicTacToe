@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{406b706a-d0c2-4eb6-acc2-5d8906a71a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{fa9be157-65d7-4d3b-8c25-05f7d8f9ad71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{2055432c-0ce6-414a-a99d-b9b15f7bc001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileProcessors">
+      <UniqueIdentifier>{1c1308d2-6302-4e6f-937e-199d3d502605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject">
+      <UniqueIdentifier>{05a58e04-c622-4cac-b6a2-90b4f2e97d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{2e153222-94e8-403e-923a-65ac8bb340c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logger">
+      <UniqueIdentifier>{44ab3d13-4418-41ee-816c-7505caaa3211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProjectSpecific">
+      <UniqueIdentifier>{3e8a1f2a-eaaa-42be-9c23-0ca48e5d5ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{fd8743ed-a9ab-446e-b5d4-f2d602778ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{8293370a-b688-4449-b2a3-54f208555355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{70999173-0991-43c7-8fc8-94ee53c7c16f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileProcessors">
+      <UniqueIdentifier>{ac589ac4-a672-4ca9-a207-e1b5a20eb550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{0c5ebe81-f8d4-4089-b66f-52dd71db7c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{23e7a688-f77a-4b7e-92fb-dd431da29008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logger">
+      <UniqueIdentifier>{19b63323-e9e0-434e-a2a4-c161b53ccf42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{b140ecf2-0717-4b2e-bc80-74110db7b991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProjectSpecific">
+      <UniqueIdentifier>{3911cd8d-9025-4164-b901-30f197064f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProjectSpecific\CS1150_3">
+      <UniqueIdentifier>{ab22008f-2642-4751-aa9b-7561dac19445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProjectSpecific\CS1150_3">
+      <UniqueIdentifier>{a7bf6ac1-611f-4034-8042-3f760cb7f505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProjectSpecific\Math">
+      <UniqueIdentifier>{3e38dffa-6ffd-4a88-af5c-95aeab5e55f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\AI\AIUtilities.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Camera\Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Collision\Collision.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FileProcessors\FileHandler.cpp">
+      <Filter>Source Files\FileProcessors</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FileProcessors\FileWrapper.cpp">
+      <Filter>Source Files\FileProcessors</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GameObject\GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Logger\Logger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Math\MatrixStack.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Math\Matrix.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Geometry\ObjectBase.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Geometry\ObjectLine.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Geometry\ObjectComposite.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Geometry\ObjectCone.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Geometry\ObjectCube.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Geometry\ObjectCylinder.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Geometry\ObjectGrid.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Geometry\ObjectSphere.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Geometry\ObjectUtility.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FileProcessors\TGALoader.cpp">
+      <Filter>Source Files\FileProcessors</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Geometry\Transforms.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ProjectSpecific\CS1150_3\Driver.cpp">
+      <Filter>Source Files\ProjectSpecific\CS1150_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ProjectSpecific\CS1150_3\ObjectWrapper.cpp">
+      <Filter>Source Files\ProjectSpecific\CS1150_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ProjectSpecific\CS1150_3\MiniMaxSearch.cpp">
+      <Filter>Source Files\ProjectSpecific\CS1150_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Math\MathExt.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\AI\AIUtilities.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Camera\Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Collision\Collision.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\FileProcessors\FileHandler.h">
+      <Filter>Header Files\FileProcessors</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\FileProcessors\FileWrapper.h">
+      <Filter>Header Files\FileProcessors</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GameObject\GameObject.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Logger\Logger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Math\MatrixStack.h">
+      <Filter>Header Files\ProjectSpecific\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Math\Matrix.h">
+      <Filter>Header Files\ProjectSpecific\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\ObjectBase.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\ObjectComposite.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\ObjectUtility.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\ObjectCone.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\ObjectCube.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\ObjectCylinder.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\ObjectGrid.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\ObjectLine.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\ObjectSphere.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\FileProcessors\TGALoader.h">
+      <Filter>Header Files\FileProcessors</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\Transforms.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ProjectSpecific\CS1150_3\MiniMaxSearch.h">
+      <Filter>Header Files\ProjectSpecific\CS1150_3</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ProjectSpecific\CS1150_3\ObjectWrapper.h">
+      <Filter>Header Files\ProjectSpecific\CS1150_3</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Math\MathExt.h">
+      <Filter>Header Files\ProjectSpecific\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

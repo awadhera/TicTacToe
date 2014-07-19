@@ -1,0 +1,5 @@
+Grid|subdivisionx=5,subdivisiony=3|color=255,0,0
+Cube|subdivison=5|color=255,0,255
+Cylinder|stacks=10,slices=10|color=255,255,0
+Cone|stacks=10,slices=10|color=0,0,255
+Sphere|stacks=10,slices=10|color=255,255,255
