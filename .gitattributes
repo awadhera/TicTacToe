@@ -64,3 +64,4 @@
 
 * linguist-vendored
 *.h linguist-vendored=false
+*.cpp linguist-vendored=false
