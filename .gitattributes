@@ -62,4 +62,4 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 
-static/* linguist-vendored
+glew/* linguist-vendored
