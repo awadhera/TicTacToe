@@ -62,6 +62,5 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 
-* linguist-vendored
-*.h linguist-vendored=false
-*.cpp linguist-vendored=false
+*.cpp linguist-language=C++
+*.h linguist-language=C++
